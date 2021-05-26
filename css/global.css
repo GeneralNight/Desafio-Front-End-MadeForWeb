@@ -1,0 +1,39 @@
+:root {
+    --blue: #74d9e2;
+    --pink: #fc76a2;
+    --yellow: #fbe390;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media(max-width:1080px) {
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width:720px) {
+    html{
+        font-size: 87.5%;
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    filter: brightness(95%);
+}

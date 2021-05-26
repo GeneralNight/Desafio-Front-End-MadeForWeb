@@ -1,0 +1,109 @@
+@media (max-width:1440px) {
+
+    .circle-inside { 
+        right: -3vw;
+        top: -16vw;
+    }
+
+    .circle-outside {
+        right: -4vw;
+        top: -16vw;
+    }
+
+    #icon1 {
+        top: 3vh;
+        left: 13vw;
+    }
+
+    #icon2 {
+        top: 6vw;
+        left: 38vw;
+    }
+
+    #icon3 {
+        top: 5vh;
+        right: 41vw;
+    }
+
+    #icon4 {
+        top: 30vh;
+        left: 2vw;
+    }
+
+    #icon5 {
+        top: 28vh;
+        right: 40vw;
+    }
+
+    #icon6 {
+        top: 32vw;
+        left: 3vw;
+    }
+
+    #icon7 {
+        top: 38vw;
+        left: 43vw;
+    }
+
+    #icon8 {
+        top: 27vw;
+        right: 30vw;
+    }
+
+    #icon9 {
+        top: 27vw;
+        right: 1.5vw;
+    }
+
+    #shape1 {
+        margin-top: -80px;
+        width: 100vw;
+    }
+
+
+    .initial-content {
+        margin-top: 1.5vw;
+        margin-left: 12vw;
+        width: 460px;
+        color: white;
+    }
+
+    #tmlShape3 {
+        margin-top: 120vw;
+        left: -20.5vw;
+    }
+
+    #tmlShape4 {
+        margin-top: 145vw;
+        left: 28.5vw;
+        transform: rotateZ(90deg) scale(0.8);
+    }
+
+    .faculty-person {
+        margin: 0 7vw;
+    }
+
+    .person-photo {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .brief {
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1vw;
+        padding: 0 1vw;
+    }
+
+    .brief-text {
+        width: 100%;
+        margin-left: 0vw;
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+    
+}

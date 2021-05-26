@@ -1,0 +1,1092 @@
+/*########## INITIAL CONTENT ##########*/
+    .container-initial {
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .layer {
+        position: absolute;
+        
+    }
+    /*######### SHAPES LAYER ##########*/
+        .shapes-layer {
+            background-color: #92e2e9;
+            position: absolute;
+            height: 25vh;
+        }
+
+        #shape1 {
+            margin-top: -95px;
+            width: 90vw;
+        }
+
+        #shape2 {
+            width: 100vw;
+            background-color: #49ced9;
+            margin-top: -1vh;
+            height: 25vh;
+        }
+
+        #shape3 {
+        width: 100vw;
+        }
+
+        #shape4 {
+            width: 120vw;
+            position: relative;
+            top: -23vw;
+            left: -10vw;
+            z-index: -1;
+            transform: rotateZ(0deg);
+        }
+
+        #shape5 {
+            width: 120vw;
+            position: relative;
+            top: -46vw;
+            left: -10vw;
+            z-index: -2;
+            transform: rotateZ(0deg);
+        }
+
+    /*######## END OF SHAPES LAYER #############*/
+
+    /*###### CIRCLE ELEMENT RIGHT #########*/
+        .container-circles-image-right{
+            float: right;
+        }
+
+        .circle-inside {
+            width: 38vw;
+            height: 38vw;
+            background-image: url('../assets/images/inicial.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: right;
+            border-radius: 50%;
+            position: absolute;
+            right: -3vw;
+            top: -14vw;
+            transform: rotateZ(-15deg);
+        }
+
+        .circle-outside {
+            background-color: #89dfe7;
+            width: 40vw;
+            height: 40vw;
+            border-radius: 50%;
+            position: absolute;
+            right: -4vw;
+            top: -14vw;
+        }
+    /*####### END OF CIRCLE ELEMENT RIGHT #########*/
+    
+    /*####### ICONS LAYER ##########*/
+
+        .icons-layer {
+            width: 100vw;
+        }
+
+        .icon {
+            position: absolute;
+        }
+
+        #icon1 {
+            top: 3vh;
+            left: 13vw;
+            width: 1.75vw;
+            height: 1.75vw;
+        }
+
+        #icon2 {
+            top: 8vh;
+            left: 38vw;
+            width: 4.5vw;
+            height: 4.5vw;
+        }
+
+        #icon3 {
+            top: 5vh;
+            right: 41vw;
+            width: 4.5vw;
+            height: 4.5vw;
+        }
+
+        #icon4 {
+            top: 30vh;
+            left: 2vw;
+            width: 2.5vw;
+            height: 2.5vw;
+            filter: grayscale(100%);
+        }
+
+        #icon5 {
+            top: 28vh;
+            right: 40vw;
+            width: 2.5vw;
+            height: 2.5vw;
+        }
+
+        #icon6 {
+            top: 63vh;
+            left: 3vw;
+            width: 6vw;
+            height: 6vw;
+            transform: rotateY(180deg) rotateZ(-12deg);
+        }
+
+        #icon7 {
+            top: 78vh;
+            left: 35vw;
+            width: 4.5vw;
+            height: 4.5vw;
+        }
+
+        #icon8 {
+            top: 58vh;
+            right: 30vw;
+            width: 2.5vw;
+            height: 2.5vw;
+        }
+
+        #icon9 {
+            top: 55vh;
+            right: 1.5vw;
+            width: 10vw;
+            height: 10vw;
+
+        }
+    /*######## END OF ICONS LAYER #########*/
+
+    /*####### CONTENT LAYER ###########*/
+
+        .content-layer {
+            width: 100vw;
+        }
+
+        .logoImage {
+            margin: 1.5vw 3vw;
+            width: 15vw;
+        }
+
+        .initial-content {
+            margin-top: 1.5vw;
+            margin-left: 10vw;
+            width: 460px;
+            color: white;
+        }
+
+        .initial-title {
+            font-size: 3rem;
+        }
+
+        .initial-text {
+            margin-top: 5vh;
+            font-size: 1.1rem;
+            line-height: 2rem;
+        }
+
+        .initial-content button {
+            font-size: 1.5rem;
+            padding: 1vw 2vw;
+            border-radius: 2vw;
+            border:none;
+            background-color: var(--yellow);
+            box-shadow: 0.2vw 0.2vw 0.5vw rgba(0,0,0,0.5);
+            margin-top: 3vw;
+            margin-left: 2.8vw;
+        }
+    /*####### END OF CONTENT LAYER ###########*/
+
+/*####### END OF INITIAL CONTENT ##############*/
+
+/*####### METODOLOGY SECTION #############*/
+
+    .container-motodology {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7vw;
+        padding: 0vw 3vw;
+    }
+
+    .container-motodology p:first-child {
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin-bottom: 10vh;
+    }
+
+    .container-metodology-collumns {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .motodology {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25vw;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .motodology img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .metodolgy-title {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 1.5vw 0;
+    }
+
+    .motodology p:last-child {
+        text-align: center;
+        width: 80%;
+        line-height: 1.8rem;
+        font-weight: 300;
+    }
+
+/*########## END OF METODOLOGY SECTION ##########*/
+
+/*######## INTERNATIONAL SCHOOL SECTION ############*/
+
+    .container-international-school {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 7vw;
+        padding: 0vw 3vw;
+    }
+
+    .our-proud {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-proud img {
+        width: 18vh;
+    }
+
+    .our-proud p {
+        margin: 2.5vw 0;
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .international-school-content{
+        width: 60vw;
+    
+    }
+
+    .international-school-content p:first-child {
+        font-size: 2rem;
+        margin-bottom: 1vw;
+    }
+
+    .international-school-content p:last-child {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.8rem;
+    }
+
+/*######### END OF INTERNATIONAL SCHOOL SECTION ###########*/
+
+/*########## TIMELINE ###########*/
+
+    .container-timeline {
+        width: 100vw;
+        margin-top: 12vw;
+    }
+
+    /*######## TIMELINE SHAPES ##########*/
+
+        .timeline-shapes-layer {
+            position: absolute;
+            width: 100vw;
+        }
+
+        .timeline-shapes-layer img {
+            position: absolute;
+            z-index: -1;
+        }
+
+        #tmlShape1 {
+            width: 15vw;
+            height: 15vw;
+            margin-top: 200px;
+            right: 1vw;
+        }
+
+        #tmlShape2 {
+            width: 35vw;
+            height: 35vw;
+            margin-top: 23vw;
+            left: -29.5vw;
+            filter: sepia(1);
+        }
+
+        #tmlShape3 {
+            transform: scale(.8);
+            width: 38vw;
+            height: 38vw;
+            margin-top: 80vw;
+            left: -23.5vw;
+        }
+
+        #tmlShape4 {
+            width: 15vw;
+            height: 15vw;
+            margin-top: 95vw;
+            left: 30.5vw;
+            transform: rotateZ(90deg) scale(0.8);
+        }
+
+        .line {
+            position: absolute;
+            width: 0.2vw;
+            left: calc((100vw - 0.2vw)/2);
+            height: 100vh;
+            background-color: #cfcfcf;
+            filter: brightness(0.8);
+        }
+
+    /*###### END TIMELINE SHAPES ##########*/
+
+    /*########### TIMELINE CONTENT ###########*/
+
+        .timeline-content {
+            width: 100vw;
+            padding: 0 2.5vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .timeline-title {
+            position: absolute;
+            font-size: 3rem;
+            width: 35vw;
+            right: 5vw;
+        }
+
+        .learn-level {
+            width: 46vw;
+        }
+
+        .container-learn-top {
+            width: 46vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .point-line {
+            display: flex;
+            align-items: center;
+            width: 20vw;
+            
+        }
+
+        .pntln-left {
+            flex-direction: row-reverse;
+            
+        }
+
+        .pntln-right {
+            flex-direction: row;
+        }     
+
+        .point {
+            width: 1vw;
+            height: 1vw;
+            background-color: #cfcfcf;
+            filter: brightness(0.8);
+            border-radius: 50%;
+        }
+
+        .line-row {
+            width: 13vw;
+            height: 0.1vw;
+            background-color: #cfcfcf;
+            filter: brightness(0.8);
+        }
+
+        .learn-level + .learn-level{
+            margin-top: -5vw;
+        }
+
+        .img-level {
+            width: 100%;
+            height: 40vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 1vw;
+            box-shadow: 0 0.2vw 0.5vw rgba(0,0,0,0.3);
+        }
+
+        .img-level button {
+            float: right;
+            margin: 32.5vh 1vw 0 0 ;
+            font-size: 1.3rem;
+            padding: 0.75vw 1vw;
+            border-radius: 1vw;
+            border:none;
+            background-color: var(--yellow); 
+            font-weight: 700;       
+        }
+        
+        .img-cover {
+            width: 100%;
+            height: 40vh;
+            border-radius: 1vw;
+            background-color: rgba(0,0,0,0.2);
+        }
+
+        .softCover {
+            background-color: transparent;
+        }
+
+        .level1 {
+            background-image: url('../assets/images/infantil-1-a-5-anos.jpg');
+        }
+
+        .level2 {
+            background-image: url('../assets/images/fundamental-1-6-a-10-anos.jpg');
+        }
+
+        .level3 {
+            background-image: url('../assets/images/fundamental-2-11-a-14-anos.jpg');
+        }
+
+        .level4 {
+            background-image: url('../assets/images/ensino-médio-15-a-17-anos.jpg');
+        }
+
+        .level-title {
+            font-size: 2rem;
+            font-weight: 500;
+            margin: 2vw 0 1vw 0;
+        }
+
+        .level-text {
+            width: 80%;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            font-weight: 300;
+        }
+
+        .level-left {
+            position: relative;
+            left: 2vw;
+        }
+
+        .level-right {
+            position: relative;
+            right: -47vw;
+        }
+
+        .level-right p {
+            margin-left: 14vw;
+            width: auto;
+        }
+
+    /*######### END OF TIMELINE CONTENT ############*/
+
+/*######## END OF TIMELINE ##########*/
+
+/*######### GALERY ############*/
+
+        .container-galery {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10vh;
+        }
+
+        .galery-title {
+            font-size: 3rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .container-images {
+            margin: 5vw;
+            width: 90vw;
+        }
+
+        .container-images img {
+            width: 100%;
+            border-radius: 2vw;
+        }
+
+        .row1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .row2 {
+            margin-top: 3vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .column1 {
+            width: 65%;
+        }
+
+        .column2 {
+            width: 30%;
+        }
+
+        .galeryImg {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 1vw;
+            box-shadow: 0vw 0.2vw 0.5vw rgba(0,0,0,0.5);
+            width: 10vw;
+            height: 10vw;
+        }
+
+        #imgGal1 {
+            width: 35%;
+            height: 60vh;
+            background-image: url('../assets/images/galeria1.jpg');
+        }
+
+        #imgGal2 {
+            width: 60%;
+            height: 60vh;
+            background-image: url('../assets/images/galeria2.jpg');
+        }
+
+        #imgGal3 {
+            width: 100%;
+            height: 60vh;
+            background-image: url('../assets/images/galeria3.jpg');
+        }
+
+        #imgGal4 {
+            margin-top: 5vh;
+            width: 100%;
+            height: 60vh;
+            background-image: url('../assets/images/galeria5.jpg');
+        }
+
+        #imgGal5 {
+            width: 100%;
+            height: 125vh;
+            background-image: url('../assets/images/galeria4.jpg');
+        }
+
+/*######### END OF GALERY #######*/
+
+/*####### CTA FOLDER ########*/
+
+    .cta-folder {
+        width: 70vw;
+        margin-left: 15vw;
+        background-color: #49ced9;
+        padding: 3vw 0;
+        border-radius: 1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2vw;
+        color: white;
+    }
+
+    .cta-title {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .cta-text {
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .cta-folder button {
+        padding: 1vw 2vw;
+        width: auto;
+        font-size: 2rem;
+        border:none;
+        color:white;
+        background-color: var(--pink);
+        border-radius: 1vw;
+    }
+
+    .complement-cta {
+        padding: 2vw;
+        background-color: #fbdb6e;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        margin-top: -8vw;
+        margin-left: 7vw;
+        z-index: -1;
+    }
+
+    .complement-cta img {
+        width: 100%;
+        filter: brightness(0.6);
+    }
+
+/*######## END OF CTA FOLDER #########*/
+
+/*####### OUR FACULTY ########*/
+
+    .our-faculty {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+
+    .faculty-title {
+        font-size: 2.5rem;
+    }
+
+    .faculty-list {
+        padding: 0 5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 3vw;
+        width: 100vw;
+        overflow-x: scroll;
+        
+        overflow: auto;
+        white-space: nowrap;
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+    }
+
+    .faculty-list::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+    }
+
+    .faculty-person {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        row-gap: 1vw;
+        margin: 0 5vw;
+    }
+
+    .person-photo {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 0.5vw;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #photo1 {
+        background-image: url('../assets/images/claudiadiretora.jpg');
+        background-size: 130%;
+        background-position: 65% 80%;
+    }
+
+    #photo2 {
+        background-image: url('../assets/images/coordenadoraMaria.jpeg');
+    }
+
+    #photo3 {
+        background-image: url('../assets/images/Bentosecretario.jpg');
+    }
+
+    #photo4 {
+        background-image: url('../assets/images/Marcosprofessor.jpg');
+        background-size: 150%;
+        background-position: 50% 35%;
+    }
+
+    .person-name {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .person-role {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+/*####### END OF OUR FACULTY ######*/
+
+/*####### RESPONSIBLE BRIEF #####*/
+
+    .responsible-brief {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+
+    .brief-title {
+        font-size: 2.5rem;
+    }
+
+    .container-brief {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 5vw;
+        padding: 0 5vw;
+    }
+
+    .brief {
+        width: 25vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .brief-cl {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsible-photo {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 1vw;
+        box-shadow: 0 0 0.5vw rgba(0,0,0,0.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .responsible-name {
+        font-size: 1.2rem;
+        margin-top: 1vw;
+    }
+
+    .brief-text {
+        width: 100%;
+        margin-left: 1.5vw;
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+
+    #respons1 {
+        background-image: url('../assets/images/roberta.jpg');
+        background-size: 150%;
+        background-position: 5% 50%;
+    }
+
+    #respons2 {
+        background-image: url('../assets/images/nilson.jpg');
+        background-size: 180%;
+        background-position: 40% 50%;
+    }
+
+    #respons3 {
+        background-image: url('../assets/images/valeria.jpg');
+        background-size: 150%;
+        background-position: 35% 50%;
+    }
+
+/*####### END OF RESPONSIBLE BRIEF #####*/
+
+/*######### INTEREST CONTAINER ##########*/
+
+    .interest-container {
+        width: 100vw;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5vw;
+        padding: 2vw 0 0 0;
+    }
+
+    .interest-cl {
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cl-content {
+        width: 60%;
+    }
+
+    .interest-title {
+        margin: 7vw 0 2vw -0vw;
+        font-size: 3rem;
+    }
+
+    .interest-subtitle {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 300;
+    }
+
+    .classroomImg {
+        margin-top: 15vw;
+        width: 60%;
+    }
+
+    .interest-form {
+        width: 40vw;
+        background-color: white;
+        border: 1px solid rgba(0,0,0,0.5);
+        padding: 1vw 2vw 1.5vw 2vw;
+        border-radius: 1vw;
+        color: rgba(0,0,0,0.7);
+        box-shadow: 0 0.2vw 0.5vw rgba(0,0,0,0.2);
+        margin-right: 10vw;
+    }
+
+    .field-info {
+        font-size: 0.9rem;
+    }
+
+    .form-field {
+        margin-top: 2vw;
+    }
+
+    .field-name {
+        font-size: 1.2rem;
+    }
+
+    .form-field input, .container-fields input, .container-fields select {
+        width: 100%;
+        margin-top: 1vw;
+        padding-bottom: 5px;
+        background-color: transparent;
+        border:none;
+        border-bottom: 2px solid rgba(0,0,0,0.5);
+        font-size: 1.2rem;
+        outline: none;
+    }
+
+    .field-hint {
+        margin-top: 0.5vw;
+        font-size: 0.8rem;
+    }
+
+    .child-list {
+        width: 95%;
+        margin-left: 2.5%;
+        background-color: #f2f2f2;
+        padding: 1vw 3vw 1.5vw 3vw;
+        margin-top: 2vw;
+        border-radius: 1vw;
+    }
+
+    .child-title {
+        font-size: 1.5rem;
+    }
+
+    .container-fields {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 2vw;
+    }
+
+    .child-field {
+        width: 30%;
+    }
+
+    .child-field:nth-of-type(2) {
+        width: 50%;
+    }
+
+    .container-fields .field-name {
+        color: var(--pink);
+        margin-bottom: 1vw;
+    }
+
+    .addChildren {
+        width: 60%;
+        border: 1px solid rgba(0,0,0,0.7);
+        padding: 0.5vw 2vw;
+        font-size: 1rem;
+        border-radius: 0.5vw;
+        margin-left: 20%;
+        margin-top: 2.5vw;
+        font-weight: 500;
+    }
+
+    form .btnConfirm {
+        width: 95%;
+        margin-left: 2.5%;
+        background-color: #49ced9;
+        color: white;
+        font-size: 1.5rem;
+        padding: 1vw;
+        border: none;
+        border-radius: 0.5vw;
+        margin-top: 2vw;
+    }
+
+
+/*######### END OF INTEREST CONTAINER ##########*/
+
+/*########## OUR LOCATION #########*/
+
+    .our-location {
+        width: 100vw;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+    }
+
+    .location-title {
+        font-size: 2.5rem;
+        margin-bottom: 2vw;
+    }
+
+    .mapouter{
+        position:relative;
+        text-align:right;
+        width: 80vw;
+        height: 40vw;
+    }
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        width: 80vw;
+        height: 40vw;
+        border: 2px solid rgba(0,0,0,0.5);
+        border-radius: 0.5vw;
+    }
+
+    .gmap_canvas iframe {
+        width: 80vw;
+        height: 40vw;
+    }
+
+    .container-location-info {
+        width: 80vw;
+        margin: 1.5vw 0 0 2vw;
+    }
+
+    .location-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 1vw;
+    }
+
+    .imgInfo {
+        width: 2vw;
+        height: 2vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 0.75vw;
+    }
+
+    #locInfo1 {
+        background-image: url('../assets/elements/place_black_24dp.svg');
+    }
+
+    #locInfo2 {
+        background-image: url('../assets/elements/email.svg');
+    }
+
+    #locInfo3 {
+        background-image: url('../assets/elements/phone.svg');
+    }
+
+/*########## END OF OUR LOCATION #########*/
+
+/*######## FOOTER ###########*/
+
+    footer {
+        padding: 0vw 5vw 5vw 5vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 25vw;
+        background-color: #49ced9;
+        color:white;
+    }
+
+    footer div .logoImage {
+        margin: 0;
+        margin-bottom: 1vw;
+    }
+
+    footer div:first-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer div:nth-of-type(2) {
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1vw;
+        text-align: right;
+    }
+
+    #foot-shape1, #foot-shape2, #foot-shape3 {
+        width: 115vw;
+        left: -5vw;
+        transform: rotateZ(-5deg) rotateX(180deg) rotateY(180deg);
+        position: absolute;
+        z-index: -1;
+        margin-top: -27vw;
+    }
+
+    #foot-shape2 {
+        margin-top: -32vw;   
+    }
+
+    #foot-shape3 {
+        margin-top: -37vw;
+    }
+
+/*######## END OF FOOTER ###########*/

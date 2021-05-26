@@ -1,0 +1,1142 @@
+@media(max-width:1024px) {
+    /*########## INITIAL CONTENT ##########*/
+    .container-initial {
+        width: 100vw;
+        height: 90vw;
+    }
+    
+
+    .layer {
+        position: absolute;
+    }
+    /*######### SHAPES LAYER ##########*/
+        .shapes-layer {
+            background-color: #92e2e9;
+            position: absolute;
+            height: 40vw;
+        }
+
+        #shape1 {
+            transform: rotateZ(-12deg);
+            margin-top: 6vw;
+            margin-left: -8vw;
+            width: 115vw;
+        }
+
+        #shape2 {
+            width: 115vw;
+            background-color: #49ced9;
+            margin-top: -2vw;
+            margin-left: -8vw;
+            height: 50vw;
+            opacity: 1;
+            transform: rotateZ(-11deg);
+        }
+
+        #shape3 {
+            width: 115vw;
+            transform: rotateZ(-5deg);
+            margin-top: -5vw;
+            margin-left: -8vw;
+        }
+
+        #shape4 {
+            width: 115vw;
+            position: relative;
+            top: -23vw;
+            left: -10vw;
+            z-index: -1;
+            transform: rotateZ(-9deg);
+        }
+
+        #shape5 {
+            width: 120vw;
+            position: relative;
+            top: -47vw;
+            left: -10vw;
+            z-index: -2;
+            transform: rotateZ(-12deg);
+        }
+
+    /*######## END OF SHAPES LAYER #############*/
+
+    /*###### CIRCLE ELEMENT RIGHT #########*/
+        .container-circles-image-right{
+            float: right;
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+        }
+    /*####### END OF CIRCLE ELEMENT RIGHT #########*/
+    
+    /*####### ICONS LAYER ##########*/
+
+        .icons-layer {
+            width: 100vw;
+        }
+
+        .icon {
+            position: absolute;
+        }
+
+        #icon1 {
+            opacity: 0;
+            top: 3vw;
+            left: 13vw;
+            width: 17vw;
+            height: 17vw;
+        }
+
+        #icon2 {
+            top: 2vw;
+            left: 53vw;
+            width: 10vw;
+            height: 10vw;
+            filter: sepia(1);
+        }
+
+        #icon3 {
+            top: 5vw;
+            right: 41vw;
+            width: 5vw;
+            height: 5vw;
+            opacity: 0;
+        }
+
+        #icon4 {
+            top: 63vw;
+            left: 2vw;
+            width: 4vw;
+            height: 4vw;
+            filter: grayscale(100%);
+        }
+
+        #icon5 {
+            top: 55vw;
+            right: 5vw;
+            width: 5vw;
+            height: 5vw;
+        }
+
+        #icon6 {
+            top: 38vw;
+            left: 72vw;
+            width: 9vw;
+            height: 9vw;
+            transform: rotateZ(-5deg);
+        }
+
+        #icon7 {
+            opacity: 0;
+            top: 15vw;
+            left: 35vw;
+            width: 45vw;
+            height: 45vw;
+        }
+
+        #icon8 {
+            top: 58vw;
+            right: 30vw;
+            width: 25vw;
+            height: 25vw;
+            opacity: 0;
+        }
+
+        #icon9 {
+            top: 8vw;
+            right: 6vw;
+            width: 15vw;
+            height: 15vw;
+
+        }
+    /*######## END OF ICONS LAYER #########*/
+
+    /*####### CONTENT LAYER ###########*/
+
+        .content-layer {
+            width: 100vw;
+        }
+
+        .logoImage {
+            margin: 5vw 5vw;
+            width: 32vw;
+        }
+
+        .initial-content {
+            width: 100vw;
+            margin: -3vw 0vw;
+            padding: 0 5vw;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .initial-title {
+            font-size: 7vw;
+            width: 70vw;
+        }
+
+        .initial-text {
+            margin-top: 5vw;
+            font-size: 3vw;
+            line-height: 4.5vw;
+            width: 60vw;
+        }
+
+        .initial-content button {
+            font-size: 2vw;
+            font-weight: 500;
+            padding: 2.5vw 5vw;
+            border-radius: 4vw;
+            border:none;
+            background-color: var(--yellow);
+            box-shadow: 0.2vw 0.2vw 0.5vw rgba(0,0,0,0.5);
+            margin:5vw auto;
+        }
+    /*####### END OF CONTENT LAYER ###########*/
+
+/*####### END OF INITIAL CONTENT ##############*/
+
+/*####### METODOLOGY SECTION #############*/
+
+    .container-motodology {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vw;
+        padding: 0vw 3vw;
+    }
+
+    .container-motodology p:first-child {
+        font-size: 5.5vw;
+        font-weight: 400;
+        margin-bottom: 12vw;
+    }
+
+    .container-metodology-collumns {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .motodology {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 100px;
+    }
+
+    .motodology img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .metodolgy-title {
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 4vw 0;
+    }
+
+    .motodology p:last-child {
+        font-size: 4vw;
+        text-align: center;
+        width: 80%;
+        line-height: 6vw;
+        font-weight: 300;
+    }
+
+/*########## END OF METODOLOGY SECTION ##########*/
+
+/*######## INTERNATIONAL SCHOOL SECTION ############*/
+
+    .container-international-school {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0vw;
+        padding: 0vw 3vw;
+    }
+
+    .our-proud {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-proud img {
+        width: 25vw;
+    }
+
+    .our-proud p {
+        margin: 2.5vw 0;
+        font-size: 5vw;
+        width: 100%;
+        opacity: 0;
+    }
+
+    .international-school-content{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;    
+        margin-top: -5vw;
+    }
+
+    .international-school-content p:first-child {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .international-school-content p:last-child {
+        font-size: 3vw;
+        font-weight: 300;
+        line-height: 4vw;
+        width: 80%;
+    }
+
+/*######### END OF INTERNATIONAL SCHOOL SECTION ###########*/
+
+/*########## TIMELINE ###########*/
+
+    .container-timeline {
+        width: 100vw;
+        margin-top: 12vw;
+    }
+
+    /*######## TIMELINE SHAPES ##########*/
+
+        .timeline-shapes-layer {
+            position: absolute;
+            width: 100vw;
+        }
+
+        .timeline-shapes-layer img {
+            position: absolute;
+            z-index: -1;
+        }
+
+        #tmlShape1 {
+            width: 15vw;
+            height: 15vw;
+            margin-top: 200px;
+            right: 1vw;
+        }
+
+        #tmlShape2 {
+            width: 35vw;
+            height: 35vw;
+            margin-top: 23vw;
+            left: -29.5vw;
+            filter: sepia(1);
+        }
+
+        #tmlShape3 {
+            transform: scale(.8);
+            width: 38vw;
+            height: 38vw;
+            margin-top: 80vw;
+            left: -23.5vw;
+        }
+
+        #tmlShape4 {
+            width: 15vw;
+            height: 15vw;
+            margin-top: 95vw;
+            left: 30.5vw;
+            transform: rotateZ(90deg) scale(0.8);
+        }
+
+        .line {
+            position: absolute;
+            width: 0.5vw;
+            left: calc((100vw - 0.2vw)/2);
+            height: 100vh;
+            background-color: #cfcfcf;
+            filter: brightness(0.8);
+            z-index: -1;
+        }
+
+    /*###### END TIMELINE SHAPES ##########*/
+
+    /*########### TIMELINE CONTENT ###########*/
+
+        .timeline-content {
+            width: 100vw;
+            padding: 0 2.5vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 60vw;
+        }
+
+        .timeline-title {
+            position: absolute;
+            font-size: 5vw;
+            margin-top: -45vw;
+            width: 75vw;
+            text-align: center;
+            right: inherit;
+        }
+
+        .learn-level {
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 0.5vw rgba(0,0,0,0.5);
+            background-color: #fff;
+            border-radius: 1vw 1vw 0 0;
+            padding-bottom: 2vw;
+        }
+
+        .container-learn-top {
+            width: 80vw;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .point-line {
+            display: flex;
+            align-items: center;
+            width: 20vw;
+            transform: rotateZ(90deg);
+            z-index: -1;
+            margin-top: -5vh;            
+        }
+
+        .pntln-left {
+            flex-direction: row-reverse;
+            
+        }
+
+        .pntln-right {
+            flex-direction: row-reverse;
+        }     
+
+        .point {
+            width: 3vw;
+            height: 3vw;
+            background-color: #cfcfcf;
+            filter: brightness(0.8);
+            border-radius: 50%;
+        }
+
+        .line-row {
+            width: 18vw;
+            height: 0.5vw;
+            background-color: #cfcfcf;
+            filter: brightness(0.8);
+        }
+
+        .learn-level + .learn-level{
+            margin-top: 20vw;
+        }
+
+        .img-level {
+            width: 100%;
+            height: 40vw;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 1vw;
+            box-shadow: 0 0.2vw 0.5vw rgba(0,0,0,0.3);
+        }
+
+        .img-level button {
+            float: right;
+            margin: 33vw 3vw 0 0 ;
+            font-size: 2.75vw;
+            padding: 0.75vw 1vw;
+            border-radius: 1vw;
+            border:none;
+            background-color: var(--yellow); 
+            font-weight: 700;       
+        }
+        
+        .img-cover {
+            width: 100%;
+            height: 40vw;
+            border-radius: 1vw;
+            background-color: rgba(0,0,0,0.2);
+        }
+
+        .softCover {
+            background-color: transparent;
+        }
+
+        .level1 {
+            background-image: url('../assets/images/infantil-1-a-5-anos.jpg');
+        }
+
+        .level2 {
+            background-image: url('../assets/images/fundamental-1-6-a-10-anos.jpg');
+        }
+
+        .level3 {
+            background-image: url('../assets/images/fundamental-2-11-a-14-anos.jpg');
+        }
+
+        .level4 {
+            background-image: url('../assets/images/ensino-médio-15-a-17-anos.jpg');
+        }
+
+        .level-title {
+            font-size: 4vw;
+            font-weight: 500;
+            margin: 2vw 0 1vw 0;
+            padding: 0 2vw;
+        }
+
+        .level-text {
+            width: 100%;
+            font-size: 3vw;
+            line-height: 4.5vw;
+            font-weight: 300;
+            padding: 0 2vw;
+        }
+
+        .level-left {
+            position: relative;
+            left: 0vw;
+        }
+
+        .level-left .container-learn-top {
+            flex-direction: column-reverse;
+        }
+
+        .level-right .container-learn-top {
+            flex-direction: column;
+        }
+
+        .level-right {
+            position: relative;
+            right: 0vw;
+        }
+
+        .level-right p {
+            margin-left: 0vw;
+            width: auto;
+        }
+
+    /*######### END OF TIMELINE CONTENT ############*/
+
+/*######## END OF TIMELINE ##########*/
+
+/*######### GALERY ############*/
+
+        .container-galery {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10vw;
+        }
+
+        .galery-title {
+            font-size: 6vw;
+            width: 100%;
+            text-align: center;
+        }
+
+        .container-images {
+            margin: 10vw 0;
+            width: 100vw;
+        }
+
+        .container-images img {
+            width: 100%;
+            border-radius: 0vw;
+        }
+
+        .row1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .row2 {
+            margin-top: 0vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .column1 {
+            width: 45vw;
+        }
+
+        .column2 {
+            width: 55vw;
+        }
+
+        .galeryImg {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 0vw;
+            box-shadow: 0vw 0vw 5vw rgba(0,0,0,1) inset;
+            width: 10vw;
+            
+        }
+
+        #imgGal1 {
+            width: 50vw;
+            height: 60vw;
+            background-image: url('../assets/images/galeria1.jpg');
+        }
+
+        #imgGal2 {
+            width: 50vw;
+            height: 60vw;
+            background-image: url('../assets/images/galeria2.jpg');
+        }
+
+        #imgGal3 {
+            width: 100%;
+            height: 45vw;
+            background-image: url('../assets/images/galeria3.jpg');
+        }
+
+        #imgGal4 {
+            margin-top: 0vh;
+            width: 100%;
+            height: 45vw;
+            background-image: url('../assets/images/galeria5.jpg');
+        }
+
+        #imgGal5 {
+            width: 100%;
+            height: 90vw;
+            background-image: url('../assets/images/galeria4.jpg');
+        }
+
+/*######### END OF GALERY #######*/
+
+/*####### CTA FOLDER ########*/
+
+    .cta-folder {
+        width: 90vw;
+        margin-left: 5vw;
+        background-color: #49ced9;
+        padding: 10vh 5vw;
+        border-radius: 0.2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4vh;
+        color: white;
+        margin-top: 5vh;
+    }
+
+    .cta-title {
+        width: 100%;
+        text-align: center;
+        font-size: 7vw;
+        font-weight: 500;
+    }
+
+    .cta-text {
+        width: 95%;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .cta-folder button {
+        margin-top: 5vw;
+        padding: 2vw 8vw;
+        font-size: 6vw;
+        border:none;
+        color:white;
+        background-color: var(--pink);
+        border-radius: 3vw;
+        box-shadow: 0 1vw 1vw rgba(0,0,0,0.2);
+    }
+
+    .complement-cta {
+        opacity: 0;
+    }
+
+    .complement-cta img {
+        width: 100%;
+        filter: brightness(0.6);
+    }
+
+/*######## END OF CTA FOLDER #########*/
+
+/*####### OUR FACULTY ########*/
+
+    .our-faculty {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+
+    .faculty-title {
+        font-size: 5vw;
+    }
+
+    .faculty-list {
+        padding: 0 5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 3vw;
+        width: 100vw;
+        overflow-x: scroll;
+        
+        overflow: auto;
+        white-space: nowrap;
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+    }
+
+    .faculty-list::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+    }
+
+    .faculty-person {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        row-gap: 1vw;
+        margin: 0 12vw;
+    }
+
+    .person-photo {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 2vw;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #photo1 {
+        background-image: url('../assets/images/claudiadiretora.jpg');
+        background-size: 130%;
+        background-position: 65% 80%;
+    }
+
+    #photo2 {
+        background-image: url('../assets/images/coordenadoraMaria.jpeg');
+    }
+
+    #photo3 {
+        background-image: url('../assets/images/Bentosecretario.jpg');
+    }
+
+    #photo4 {
+        background-image: url('../assets/images/Marcosprofessor.jpg');
+        background-size: 150%;
+        background-position: 50% 35%;
+    }
+
+    .person-name {
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .person-role {
+        font-size: 2.8vw;
+        font-weight: 300;
+    }
+
+/*####### END OF OUR FACULTY ######*/
+
+/*####### RESPONSIBLE BRIEF #####*/
+
+    .responsible-brief {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vw;
+    }
+
+    .brief-title {
+        font-size: 5vw;
+    }
+
+    .container-brief {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+        justify-content: space-between;
+        margin-top: 5vw;
+        padding: 0 5vw;
+    }
+
+    .brief {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 4vw;
+    }
+
+    .brief-cl {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsible-photo {
+        width: 22vw;
+        height: 22vw;
+        border-radius: 1vw;
+        box-shadow: 0 0 0.5vw rgba(0,0,0,0.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .responsible-name {
+        font-size: 1.75rem;
+        margin-top: 1.5vw;
+    }
+
+    .brief-text {
+        width: 100%;
+        margin-left: auto;
+        font-size: 4vw;
+        font-weight: 300;
+        line-height: 6vw;
+        text-align: center;
+    }
+
+    #respons1 {
+        background-image: url('../assets/images/roberta.jpg');
+        background-size: 150%;
+        background-position: 5% 50%;
+    }
+
+    #respons2 {
+        background-image: url('../assets/images/nilson.jpg');
+        background-size: 180%;
+        background-position: 40% 50%;
+    }
+
+    #respons3 {
+        background-image: url('../assets/images/valeria.jpg');
+        background-size: 150%;
+        background-position: 35% 50%;
+    }
+
+/*####### END OF RESPONSIBLE BRIEF #####*/
+
+/*######### INTEREST CONTAINER ##########*/
+
+    .interest-container {
+        width: 100vw;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5vw;
+        padding: 2vw 0 0 0;
+    }
+
+    .interest-cl {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cl-content {
+        width: 85%;
+    }
+
+    .interest-title {
+        margin: 7vw 0 2vw -0vw;
+        font-size: 7vw;
+        width: 70vw;
+    }
+
+    .interest-subtitle {
+        font-size: 4vw;
+        line-height: 6vw;
+        font-weight: 300;
+    }
+
+    .classroomImg {
+        margin-top: 15vw;
+        width: 60%;
+        position: absolute;
+        z-index: -1;opacity: 0;
+    }
+
+    .interest-form {
+        width: 100vw;
+        background-color: transparent;
+        border: none;
+        padding: 2vw 8vw;
+        border-radius: 1vw;
+        color: rgba(0,0,0,0.7);
+        box-shadow: none;
+        margin-right: 0vw;
+        margin-top: 8vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .field-info {
+        font-size: 3vw;
+    }
+
+    .form-field {
+        margin-top: 7vw;
+        width: 100%;
+    }
+
+    .field-name {
+        font-size: 4vw;
+    }
+
+    .form-field input, .container-fields input, .container-fields select {
+        width: 100%;
+        margin-top: 4vw;
+        padding-bottom: 5px;
+        background-color: transparent;
+        border:none;
+        border-bottom: 2px solid rgba(0,0,0,0.5);
+        font-size: 5vw;
+        outline: none;
+    }
+
+    .field-hint {
+        margin-top: 1vh;
+        font-size: 1rem;
+    }
+
+    .child-list {
+        width: 100%;
+        margin-left: 0%;
+        background-color: #f2f2f2;
+        padding: 1vw 3vw 4vw 3vw;
+        margin-top: 8vw;
+        border-radius: 1vw;
+    }
+
+    .child-title {
+        font-size: 4vw;
+        margin: 2vh 0;
+    }
+
+    .container-fields {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 7vw;
+        justify-content: space-between;
+    }
+
+    .child-field input, .child-field select {
+        font-size: 4vw;
+    }
+
+    .child-field {
+        width: 100%
+    }
+
+    .child-field:nth-of-type(2) {
+        width: 100%;
+    }
+
+    .container-fields .field-name {
+        color: var(--pink);
+        margin-bottom: 1vw;
+    }
+
+    .addChildren {
+        width: auto;
+        border: none;
+        background-color: transparent;
+        border-bottom: 0.2vh solid rgba(0,0,0,0.1);
+        font-size: 3vw;
+        border-radius: 0.5vw;
+        float: right;
+        margin-top: 4vw;
+        font-weight: 500;
+    }
+
+    form .btnConfirm {
+        width: auto;
+        margin: auto;
+        background-color: #49ced9;
+        color: white;
+        font-size: 4vw;
+        padding: 3vw;
+        border: none;
+        border-radius: 1.5vw;
+        margin-top: 4vw;
+    }
+
+
+/*######### END OF INTEREST CONTAINER ##########*/
+
+/*########## OUR LOCATION #########*/
+
+    .our-location {
+        width: 100vw;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vw;
+    }
+
+    .location-title {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .mapouter{
+        position:relative;
+        text-align:right;
+        width: 100vw;
+        height: 60vw;
+    }
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        width: 100vw;
+        height: 60vw;
+        border: none;
+        border-radius: 0vw;
+    }
+
+    .gmap_canvas iframe {
+        width: 100vw;
+        height: 60vw;
+    }
+
+    .container-location-info {
+        width: 95vw;
+        margin: 1.5vw 0 0 2vw;
+    }
+
+    .location-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 1vw;
+        font-size: 3vw;
+    }
+
+    .imgInfo {
+        width: 5vw;
+        height: 5vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 2.75vw;
+    }
+
+    #locInfo1 {
+        background-image: url('../assets/elements/place_black_24dp.svg');
+    }
+
+    #locInfo2 {
+        background-image: url('../assets/elements/email.svg');
+    }
+
+    #locInfo3 {
+        background-image: url('../assets/elements/phone.svg');
+    }
+
+/*########## END OF OUR LOCATION #########*/
+
+/*######## FOOTER ###########*/
+
+    footer {
+        padding: 5vw 5vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 3vw;
+        font-weight: 400;
+        margin-top: 20vw;
+        background-color: #49ced9;
+        color:white;
+        z-index: -2;
+    }
+
+    footer div .logoImage {
+        margin: 0;
+        margin-bottom: 1vw;
+        position: relative;
+        z-index: 20;
+    }
+
+    footer div:first-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer div:nth-of-type(2) {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5vw;
+        text-align: right;
+        z-index: 20;
+    }
+
+    #foot-shape1, #foot-shape2, #foot-shape3 {
+        width: 135vw;
+        left: -5vw;
+        transform: rotateZ(-5deg) rotateX(180deg) rotateY(180deg);
+        position: absolute;
+        z-index: 10;
+        margin-top: -45vw;
+    }
+
+    #foot-shape2 {
+        margin-top: -50vw;   
+    }
+
+    #foot-shape3 {
+        margin-top: -55vw;
+    }
+
+/*######## END OF FOOTER ###########*/
+}
